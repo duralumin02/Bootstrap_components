@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+$font-family-sans-serif: "Kumbh Sans", sans-serif;
+$gradient: linear-gradient(to bottom, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+$danger: hsl(14, 88%, 65%);
+$accordion-icon-color: hsl(14, 88%, 65%);
+$accordion-icon-active-color: $accordion-icon-color;
+$accordion-button-focus-border-color: transparent;
+$accordion-button-focus-box-shadow: none;
+$accordion-border-color: hsl(240, 5%, 91%);
+$accordion-button-active-bg: transparent;
+$accordion-button-active-color: hsl(237, 12%, 33%);
+$accordion-color: hsl(240, 6%, 50%);
+$accordion-body-padding-y: 12px;
+
+$accordion-icon-width: 1rem;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow: hidden;
+}
+.main-container {
+  background: $gradient;
+}
+.box {
+  height: 500px;
+}
+
+.card-box {
+  z-index: 2;
+}
+.pattern {
+  top: -290px;
+  left: -545px;
+  z-index: 1;
+}
+.woman {
+  width: 520px;
+  z-index: 4;
+  left: -95px;
+  top: 50px;
+}
+
+.illustrate-box {
+  width: 235px !important;
+  left: -19px;
+  top: 39%;
+  z-index: 5;
+}
+
+.accordion-title {
+  color: $accordion-color;
+  font-size: 5rem;
+}
+.accordion-title:focus {
+  font-weight: 700;
+}
+
+.accordion-text {
+  color: $accordion-color;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

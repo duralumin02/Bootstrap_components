@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ card</title>
+    <link
+      rel="icon"
+      href="./faq-accordion-card-main/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <div
+      class="row vh-100 main-container justify-content-center align-items-center"
+    >
+      <div class="col-12 col-lg-10 box">
+        <div
+          class="row justify-content-center align-items-center h-100 position-relative"
+        >
+          <div
+            class="col-12 col-lg-5 bg-white h-100 rounded-start overflow-hidden position-relative card-box"
+          >
+            <img
+              src="./faq-accordion-card-main/images/bg-pattern-desktop.svg"
+              alt=""
+              class="pattern position-absolute"
+            />
+            <img
+              src="./faq-accordion-card-main/images/illustration-woman-online-desktop.svg"
+              alt=""
+              class="woman position-absolute"
+            />
+          </div>
+          <div class="col-12 col-lg-5 bg-white h-100 rounded-end">
+            <p class="ms-3 fw-bolder display-6 mt-5">FAQ</p>
+            <div
+              class="accordion accordion-flush mt-3"
+              id="accordionFlushExample"
+            >
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button
+                    class="accordion-button collapsed accordion-title"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseOne"
+                  >
+                    How many team members can I invite?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body accordion-text">
+                    You can invite up to 2 additional users on the Free plan.
+                    There is no limit on team members for the Premium plan.
+                  </div>
+                </div>
+              </div>
+
+              <!-- second -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button
+                    class="accordion-button collapsed accordion-title"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseTwo"
+                  >
+                    What is the maximum file upload size?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body accordion-text">
+                    No more than 2GB. All files in your account must fit your
+                    allotted storage space.
+                  </div>
+                </div>
+              </div>
+
+              <!-- third -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button
+                    class="accordion-button collapsed accordion-title"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseThree"
+                  >
+                    How do I reset my password?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body accordion-text">
+                    Click “Forgot password” from the login page or “Change
+                    password” from your profile page. A reset link will be
+                    emailed to you.
+                  </div>
+                </div>
+              </div>
+              <!-- fourth -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFour">
+                  <button
+                    class="accordion-button collapsed accordion-title"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFour"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFour"
+                  >
+                    Can I cancel my subscription?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body accordion-text">
+                    Yes! Send us a message and we’ll process your request no
+                    questions asked.
+                  </div>
+                </div>
+              </div>
+
+              <!-- fifth -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingFive">
+                  <button
+                    class="accordion-button collapsed accordion-title"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFive"
+                    aria-expanded="false"
+                    aria-controls="flush-collapseFive"
+                  >
+                    Do you provide additional support?
+                  </button>
+                </h2>
+                <div
+                  id="flush-collapseFive"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="flush-headingFive"
+                  data-bs-parent="#accordionFlushExample"
+                >
+                  <div class="accordion-body accordion-text">
+                    Chat and email support is available 24/7. Phone lines are
+                    open during normal business hours.
+                  </div>
+                </div>
+              </div>
+
+              <!-- end -->
+            </div>
+          </div>
+          <img
+            src="./faq-accordion-card-main/images/illustration-box-desktop.svg"
+            alt=""
+            class="illustrate-box position-absolute"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
